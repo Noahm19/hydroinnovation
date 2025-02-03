@@ -1,0 +1,348 @@
+@import "tailwindcss";
+.prata-regular {
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .poppins-thin {
+    font-family: "Poppins", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+/* styles.css */
+#why ul {
+    list-style: none;
+    padding: 0;
+}
+
+#why li {
+    margin-bottom: 2rem; /* Add spacing between list items */
+}
+
+#why .flex { /* Style the container for image and text */
+    align-items: flex-start; /* Align items to the top of the container */
+}
+
+#why img {
+    height: 80px;
+    width: 80px;
+    /* margin-right: 1rem;  Spacing is now handled by mr-4 in HTML */
+}
+
+#why p {
+    font-size: 1.2rem;
+    line-height: 3.5;
+}
+
+
+
+#generator body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container #generator {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.container #generator h1 {
+    margin: 0px;
+    font-size: 2em;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label #generator{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 1em;
+    color: #666;
+    text-align: left;
+}
+
+input[type="text"],
+select {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+    outline: none;
+    transition: all 0.3s;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+select:focus {
+    border-color: #6A82FB;
+    box-shadow: 0 0 5px rgba(106, 130, 251, 0.5);
+}
+
+.container button {
+    margin-top: 20px;
+    padding: 12px;
+    background: #58a1d8;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+    width: 100%;
+}
+
+.container button:hover {
+    background: #58a1d8;
+}
+
+.dwnBadge {
+    display: none;
+    margin-top: 20px;
+    padding: 12px;
+    background: #58a1d8;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+        max-width: 90%;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    button {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+
+    input[type="text"],
+    select {
+        font-size: 0.9em;
+        padding: 8px;
+    }
+}
+
+    .badge {
+        width: 280px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        background-color: #fff;
+        text-align: center;
+        font-family: 'Poppins', Arial, sans-serif;
+        display: none;
+    }
+    
+    .badge-header {
+        padding: 20px;
+        position: relative;
+        overflow: hidden;
+        background-image: url('badge-header.png');      
+        background-size: cover; /* or contain, or a specific size */
+        background-position: center; /* or top, bottom, left, right */
+        background-repeat: no-repeat;
+        height: 100px; /* Set the desired height of your header */
+        width: 100%; /* Usually want the header to be full width */
+    }
+    
+    .badge-header::after {
+        /*content: '';
+        position: absolute;
+        top: -4px;
+        left: -20px;
+        width: 40%;
+        height: 180%;
+        background: radial-gradient(circle, rgba(255, 255, 255, 0.4) 30%, transparent 10.01%);
+        background-size: 10px 10px;
+        transform: rotate(52deg);
+        opacity: 0.8;*/
+        background-image: url('badge-header.png');
+    }
+    
+    .badge-header::before {
+        content: '';
+        position: absolute;
+        background-color: #fff;
+        width: 12px;
+        height: 12px;
+        border-radius: 20px;
+        top: 5px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .badge-body {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+    }
+    
+    .badge-body h2 {
+        margin: 0;
+        font-size: 22px;
+        color: #333;
+    }
+    
+    .badge-body p {
+        font-size: 14px;
+        margin: 0;
+        color: #777;
+        font-weight: 600;
+    }
+    
+    .badge-body h3 {
+        color: #1d72b8;
+        font-size: 11px;
+        margin: 0;
+    }
+    
+    .badge-qr {
+        margin: 20px 0;
+    }
+    
+    .badge-footer {
+        color: white;
+        padding: 15px;
+        padding: 20px;
+        position: relative;
+        overflow: hidden;
+        background-image: url('badge-footer.png');      
+        background-size: cover; /* or contain, or a specific size */
+        background-position: center; /* or top, bottom, left, right */
+        background-repeat: no-repeat;
+        height: 70px; /* Set the desired height of your header */
+        width: 100%; /* Usually want the header to be full width */
+    }
+    
+    .badge-footer p {
+        margin: 0;
+        font-size: 20px;
+        font-weight: bold;
+    }
